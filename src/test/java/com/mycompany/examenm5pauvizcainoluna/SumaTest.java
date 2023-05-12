@@ -16,30 +16,29 @@ import static org.junit.Assert.*;
  * @author PauVizcaino
  */
 public class SumaTest {
-    
+
     public SumaTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
     }
 
     @Test
-    public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testSumar() {
+        Suma Sumar = new Suma(0, 0);
+        int numero = Sumar.suma(5, 10);
+        assertEquals(15, numero);
     }
-    
+
+    @Test
+    public void testGetNum1() {
+        Suma getNum1 = new Suma(0,0);
+        int numero = getNum1.getNum1(5);
+        assertEquals(5, numero);
+    }
+
+    @Test
+    public void testSumaValorAbsolut() {
+
+        Suma sumaAbsolut = new Suma(0,0);
+        int numero = sumaAbsolut.sumaValorAbsolut(-7, -10);
+        assertEquals(17,numero);
+    }
 }
