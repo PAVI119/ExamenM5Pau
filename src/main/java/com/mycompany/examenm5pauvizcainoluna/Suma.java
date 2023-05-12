@@ -10,4 +10,12 @@ package com.mycompany.examenm5pauvizcainoluna;
  */
 public class Suma {
 
+    int a;
+    int b;
+
+    public int sumaValorAbsolut(int a, int b) {
+        return Math.abs(a) + Math.abs(b);
+
+    }
+
 }
