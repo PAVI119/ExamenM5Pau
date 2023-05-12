@@ -10,4 +10,12 @@ package com.mycompany.examenm5pauvizcainoluna;
  */
 public class Suma {
 
+    int a;
+    int b;
+
+    public int suma(int a, int b) {
+        int suma;
+        suma = a + b;
+        return suma;
+    }
 }
