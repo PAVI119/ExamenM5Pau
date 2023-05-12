@@ -13,16 +13,19 @@ public class Suma {
     int a;
     int b;
 
-public int getNum1
-    public int getNum1(int a) {
-        int getNum1;
-        getNum1 = a;
-        return getNum1;
+public int suma(int a, int b) {
+  int suma;
+  suma = a + b;
+  return suma;
 }
-    public int sumaValorAbsolut(int a, int b) {
-        return Math.abs(a) + Math.abs(b);
 
-
-    }
-
+public int getNum1(int a) {
+  int getNum1;
+  getNum1 = a;
+  return getNum1;
+}
+public int sumaValorAbsolut(int a, int b) {
+  return Math.abs(a) + Math.abs(b);
+  
+}
 }
